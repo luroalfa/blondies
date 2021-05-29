@@ -8,8 +8,9 @@ $font-family-base: "Open Sans", sans-serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 .mblogo {
-  margin-bottom: -10rem;
+  margin-bottom: -4rem;
   z-index: 1;
+  height: 100px;
 }
 
 .titleTypo {
