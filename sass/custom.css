@@ -11475,4 +11475,13 @@ fieldset:disabled .btn {
 .titleTypo {
   font-family: "Dancing Script", cursive;
 }
+
+.rs {
+  height: 40px;
+  width: 40px;
+}
+
+.ft {
+  height: 150px;
+}
 /*# sourceMappingURL=custom.css.map */
