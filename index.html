@@ -126,13 +126,39 @@
                   <p class="lead fw-bold text-center">Ingredientes:</p>
                   <p class="text-center">Galletas maría, mantequilla, queso crema, Leche Condensada, huevos, fresas, azúcar, ron.</p>
                   <br>
-                  <a href="#" class="btn btn-warning mb-1">Precios</a>
+                  <!-- Button trigger modal -->
+                  <button 
+                  type="button" 
+                  class="btn btn-warning" 
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"> 
+                    Ver Precios
+                  </button>
                 </div>
             </div>        
           </div>
           
         </div>
-
+        <!-- Modal -->
+        <!-- fade es el efecto de transiccion -->
+        <!-- tabindex es para que el modal esta sobre el contenido web -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- First Section -->
 
@@ -213,13 +239,13 @@
             <p>Heredia Tel. <span class="fw-bold">5555 0081</span></p>
             <p>Barreal de Heredia Tel. <span class="fw-bold">5555 0081</span></p>
             <a href="">
-              <img src="imagenes/svg/facebook-3.svg" class="rs mx-4" alt="">
+              <img src="imagenes/svg/facebook-3.svg" class="rs mx-4" alt="Facebook">
             </a>
             <a href="">
-              <img src="imagenes/svg/instagram-2-1.svg" class="rs mx-4" alt="">
+              <img src="imagenes/svg/instagram-2-1.svg" class="rs mx-4" alt="Instagram">
             </a>
             <a href="">
-              <img src="imagenes/svg/whatsapp-icon.svg" class="rs mx-4" alt="">
+              <img src="imagenes/svg/whatsapp-icon.svg" class="rs mx-4" alt="WhatsApp">
             </a>
           </div>
         </div>
