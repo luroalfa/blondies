@@ -131,7 +131,7 @@
                   type="button" 
                   class="btn btn-warning" 
                   data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"> 
+                  data-bs-target="#modalCheesecakeCremoso"> 
                     Ver Precios
                   </button>
                 </div>
@@ -139,22 +139,33 @@
           </div>
           
         </div>
-        <!-- Modal -->
+        <!-- Modal Cheesecake Cremoso-->
         <!-- fade es el efecto de transiccion -->
         <!-- tabindex es para que el modal esta sobre el contenido web -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
+        <div class="modal fade" id="modalCheesecakeCremoso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
+              <!-- Esta es la seccion de la cabecera del modal -->
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Precios del Cheesecake Cremoso</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
+              <!-- Esta es la seccion del cuerpo del modal -->
               <div class="modal-body">
-                ...
+                <!-- price card  -->
+                <div class="card" style="width: 18rem;">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Capsula grande: &#8353;4500</li>
+                    <li class="list-group-item">Capsula Mediana: &#8353;3500</li>
+                    <li class="list-group-item">Capsula Pequeña: &#8353;2500</li>
+                    <li class="list-group-item">Porción: &#8353;1500</li>
+                    <li class="list-group-item">Costo del envió: &#8353;500</li>
+                  </ul>
+                </div>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+              <!-- Esta es la seccion del footer -->
+              <div class="modal-footer text-center">
+                <p>Envio gratis en los alrededores de la zona de San Rafael de Alajuela.</p>
               </div>
             </div>
           </div>
