@@ -11469,8 +11469,11 @@ fieldset:disabled .btn {
 
 .mblogo {
   margin-bottom: -4rem;
-  z-index: 1;
   height: 100px;
+}
+
+.logoA {
+  z-index: 1;
 }
 
 .titleTypo {

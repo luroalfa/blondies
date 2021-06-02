@@ -9,10 +9,12 @@ $font-family-base: "Open Sans", sans-serif;
 
 .mblogo {
   margin-bottom: -4rem;
-  z-index: 1;
   height: 100px;
 }
 
+.logoA {
+  z-index: 1;
+}
 .titleTypo {
   font-family: "Dancing Script", cursive;
 }
