@@ -6,6 +6,9 @@ $secondary: #ffe9e2;
 $font-family-base: "Open Sans", sans-serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+body {
+  position: relative;
+}
 
 .mblogo {
   margin-bottom: -4rem;

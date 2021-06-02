@@ -11467,6 +11467,10 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  position: relative;
+}
+
 .mblogo {
   margin-bottom: -4rem;
   height: 100px;
