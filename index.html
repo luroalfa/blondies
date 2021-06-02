@@ -97,7 +97,14 @@
                   <h2 class="card-title titleTypo text-center">Queque de chocolate</h2>
                   <p class="lead fw-bold text-center">Ingredientes:</p>
                   <p class=" text-center">Harina, azúcar, cocoa en polvo, polvo de hornear, bicarbonato de sodio, sal, aceite, leche, huevos, vainilla.</p>
-                  <a href="#" class="btn btn-warning mb-1">Ir a Inicio</a>
+                  <!-- Button trigger modal -->
+                  <button 
+                  type="button" 
+                  class="btn btn-warning" 
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalQuequeChocolate"> 
+                    Ver Precios
+                  </button>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mt-2">
@@ -107,7 +114,14 @@
                   <p class="lead fw-bold text-center">Ingredientes:</p>
                   <p class="text-center">Crema para batir, fresas, leche condensada, lamina de gelatina.</p>
                   <br><br>
-                  <a href="#" class="btn btn-warning mb-1">Precios</a>
+                  <!-- Button trigger modal -->
+                  <button 
+                  type="button" 
+                  class="btn btn-warning" 
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalMousseFresa"> 
+                    Ver Precios
+                  </button>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mt-2">
@@ -116,7 +130,14 @@
                   <h2 class="card-title titleTypo text-center">Cheesecake de Fresa</h2>
                   <p class="lead fw-bold text-center">Ingredientes:</p>
                   <p class="text-center">Harina, azúcar, cocoa en polvo, polvo de hornear, bicarbonato de sodio, sal, aceite, leche, huevos, vainilla.</p>
-                  <a href="#" class="btn btn-warning mb-1">Precios</a>
+                  <!-- Button trigger modal -->
+                  <button 
+                  type="button" 
+                  class="btn btn-warning" 
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalCheesecakeFresa"> 
+                    Ver Precios
+                  </button>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 my-2">
@@ -139,6 +160,102 @@
           </div>
           
         </div>
+        <!-- Modal Queque de Chocolate-->
+        <!-- fade es el efecto de transiccion -->
+        <!-- tabindex es para que el modal esta sobre el contenido web -->
+        <div class="modal fade" id="modalQuequeChocolate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <!-- Esta es la seccion de la cabecera del modal -->
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Precios del Queque de Chocolate</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <!-- Esta es la seccion del cuerpo del modal -->
+              <div class="modal-body">
+                <!-- price card  -->
+                <div class="card text-center">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Capsula grande:<br>&#8353;4500</li>
+                    <li class="list-group-item">Capsula Mediana:<br>&#8353;3500</li>
+                    <li class="list-group-item">Capsula Pequeña:<br>&#8353;2500</li>
+                    <li class="list-group-item">Porción:<br>&#8353;1500</li>
+                    <li class="list-group-item">Costo del envió:<br>&#8353;500</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Esta es la seccion del footer -->
+              <div class="modal-footer text-center">
+                <p>Envio gratis en los alrededores de la zona de San Rafael de Alajuela.<br>Llamar al numero: 70529997</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Mousse de Fresa-->
+        <!-- fade es el efecto de transiccion -->
+        <!-- tabindex es para que el modal esta sobre el contenido web -->
+        <div class="modal fade" id="modalMousseFresa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <!-- Esta es la seccion de la cabecera del modal -->
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Precios del Mousse de Fresa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <!-- Esta es la seccion del cuerpo del modal -->
+              <div class="modal-body">
+                <!-- price card  -->
+                <div class="card text-center">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Capsula grande:<br>&#8353;4500</li>
+                    <li class="list-group-item">Capsula Mediana:<br>&#8353;3500</li>
+                    <li class="list-group-item">Capsula Pequeña:<br>&#8353;2500</li>
+                    <li class="list-group-item">Porción:<br>&#8353;1500</li>
+                    <li class="list-group-item">Costo del envió:<br>&#8353;500</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Esta es la seccion del footer -->
+              <div class="modal-footer text-center">
+                <p>Envio gratis en los alrededores de la zona de San Rafael de Alajuela.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Cheesecake de Fresa-->
+        <!-- fade es el efecto de transiccion -->
+        <!-- tabindex es para que el modal esta sobre el contenido web -->
+        <div class="modal fade" id="modalCheesecakeFresa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <!-- Esta es la seccion de la cabecera del modal -->
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Precios del Cheesecake de Fresa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <!-- Esta es la seccion del cuerpo del modal -->
+              <div class="modal-body">
+                <!-- price card  -->
+                <div class="card text-center">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Capsula grande:<br>&#8353;4500</li>
+                    <li class="list-group-item">Capsula Mediana:<br>&#8353;3500</li>
+                    <li class="list-group-item">Capsula Pequeña:<br>&#8353;2500</li>
+                    <li class="list-group-item">Porción:<br>&#8353;1500</li>
+                    <li class="list-group-item">Costo del envió:<br>&#8353;500</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Esta es la seccion del footer -->
+              <div class="modal-footer text-center">
+                <p>Envio gratis en los alrededores de la zona de San Rafael de Alajuela.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Modal Cheesecake Cremoso-->
         <!-- fade es el efecto de transiccion -->
         <!-- tabindex es para que el modal esta sobre el contenido web -->
@@ -170,6 +287,7 @@
             </div>
           </div>
         </div>
+
       </section>
       <!-- First Section -->
 
